@@ -1,0 +1,31 @@
+.jumbotron {
+  background: url('../images/jumbotron.png');
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  background: #D404AF;
+  color: white;
+}
+
+.jumbotron p {
+  background: #F5CB07;
+}
+h2 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+#team {
+  background: #4A4A4A;
+  color: white;
+}
+
+footer {
+  background: #E9EBEB;
+
+}

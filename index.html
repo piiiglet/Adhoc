@@ -7,116 +7,125 @@
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="./resources/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Droid+Serif:400,400i|Roboto:400,400i,700" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/style.css">
 
   </head>
   <body>
     <header>
-      <div class="container-fluid">
-        <nav class="navbar">
-        	<div class="container">
+        <nav class="navbar navbar-fixed-top">
+          <div class="container-fluid" role="presentation">
             <div class="navbar-header">
-              <a href="#" class="navbar-brand"><img src="./resources/images/logo.png" alt=""></a>
+              <a href="#" class="navbar-brand"><img src="./resources/images/logo.png" alt="Adhoc company logo"></a>
             </div>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#home">Home</a></li>
-              <li><a href="#about">About us</a></li>
+              <li><a class="active" href="#about">About us</a></li>
               <li><a href="#team">Our team</a></li>
               <li><a href="#contact">Contact us</a></li>
             </ul>
           </div>
         </nav>
     </header>
-    <div id="banner" class="jumbotron jumbotron-fluid">
-      <div class="container-fluid">
+    <div id="banner" class="jumbotron jumbotron-fluid" role="presentation">
+      <div class="container-fluid" role="presentation">
         <h1>Administration made easy</h1>
         <p>Adhoc is an on-demand administrative service for your company growth</p>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <blockquote class="blockquote">
+    <div class="container" role="presentation">
+      <div class="row" role="presentation">
+        <blockquote class="blockquote col-xs-12" role="note" aria-label="Quote">
           <p>“Thanks to Adhoc we now have beautiful, faithful service every day. Our customers are happy and engagement has drastically increased. Highly recommend!”</p>
-          <footer class="blockquote-footer">Jamie Wittenberg, Just Worked</footer>
+          <footer class="blockquote-footer"><strong>Jamie Wittenberg</strong>, Just Worked</footer>
         </blockquote>
       </div>
     </div>
-    <div class="container">
-      <div class="col-xs-12">
-        <h2>Why Adhoc?</h2>
+
+    <div class="container why" role="presentation">
+      <div class="row" role="presentation">
+        <div class="col-xs-12 section-title" role="presentation">
+          <h2>Why Adhoc?</h2>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 center">
-          <img src="./resources/images/experienced.png" alt="">
+      <div class="row" role="presentation">
+        <div class="col-xs-12 col-sm-4 center image-container" role="presentation">
+          <img src="./resources/images/experienced.png" alt="we have a lot of experience">
         </div>
-        <div class="col-xs-12 col-sm-4 center">
-          <img src="./resources/images/fun.png" alt="">
+        <div class="col-xs-12 col-sm-4 center image-container" role="presentation">
+          <img src="./resources/images/fun.png" alt="we are friendly and fun">
         </div>
-        <div class="col-xs-12 col-sm-4 center">
-          <img src="./resources/images/smart.png" alt="">
+        <div class="col-xs-12 col-sm-4 center image-container" role="presentation">
+          <img src="./resources/images/smart.png" alt="our people are smart and talented">
         </div>
       </div>
     </div>
 
-    <div id="team" class="container">
-      <div class="col-xs-12">
-        <h2>Meet the team</h2>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-3 center">
-          <img src="./resources/images/brian.png" alt="">
-          <p>Brian Murphy</p>
-          <p>CEO</p>
+    <div id="team" role="presentation" role="presentation">
+      <div class="container" role="presentation">
+        <div class="row" role="presentation">
+          <div class="col-xs-12" role="presentation">
+            <h2>Meet the team</h2>
+          </div>
         </div>
-        <div class="col-xs-12 col-sm-3 center">
-          <img src="./resources/images/andy.png" alt="">
-          <p>Andy Cox</p>
-          <p>Co-Founder</p>
-        </div>
-        <div class="col-xs-12 col-sm-3 center">
-          <img src="./resources/images/angela.png" alt="">
-          <p>Angela Woronick</p>
-          <p>CFO</p>
-        </div>
-        <div class="col-xs-12 col-sm-3 center">
-          <img src="./resources/images/amie.png" alt="">
-          <p>Amie Shadlu</p>
-          <p>Angel Investor</p>
+        <div class="row team-members" role="presentation">
+          <div class="col-xs-12 col-md-3 center" role="presentation">
+            <img src="./resources/images/brian.png" alt="Brian in the woods">
+            <p><strong>Brian Murphy</strong></p>
+            <p>CEO</p>
+          </div>
+          <div class="col-xs-12 col-md-3 center" role="presentation">
+            <img src="./resources/images/andy.png" alt="Andy hitch-hiking">
+            <p><strong>Andy Cox</strong></p>
+            <p>Co-Founder</p>
+          </div>
+          <div class="col-xs-12 col-md-3 center" role="presentation">
+            <img src="./resources/images/angela.png" alt="Angela in a hat">
+            <p><strong>Angela Woronick</strong></p>
+            <p>CFO</p>
+          </div>
+          <div class="col-xs-12 col-md-3 center" role="presentation">
+            <img src="./resources/images/amie.png" alt="Amie in a jean jacket">
+            <p><strong>Amie Shadlu</strong></p>
+            <p>Angel Investor</p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="col-xs-12">
-        <h2>Current Clients</h2>
+    <div class="container clients" role="presentation">
+      <div class="row" role="presentation">
+        <div class="col-xs-12 section-title" role="presentation">
+          <h2>Current Clients</h2>
+        </div>
       </div>
-      <div class="container">
+      <div class="container featured-clients" role="presentation">
         <div class="row">
-          <div class="col-xs-12 col-sm-4 center">
-            <img src="./resources/images/boxx.png" alt="">
+          <div class="col-xs-12 col-md-4 center" role="presentation">
+            <img src="./resources/images/boxx.png" alt="Boxx logo">
           </div>
-          <div class="col-xs-12 col-sm-4 center">
-            <img src="./resources/images/element-design.png" alt="">
+          <div class="col-xs-12 col-md-4 center" role="presentation">
+            <img src="./resources/images/element-design.png" alt="Element Design logo">
           </div>
-          <div class="col-xs-12 col-sm-4 center">
-            <img src="./resources/images/quantum.png" alt="">
+          <div class="col-xs-12 col-md-4 center" role="presentation">
+            <img src="./resources/images/quantum.png" alt="Quantum Logo">
           </div>
         </div>
       </div>
     </div>
 
-    <footer class="container-fluid center">
-      <div class="row">
+    <footer class="container-fluid center" role="presentation">
+      <div class="row" role="presentation">
         <a href="#"><i class="fa fa-facebook"></i></a>
         <a href="#"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-instagram"></i></a>
       </div>
-      <div class="row">
+      <div class="row" role="presentation">
         <p><small>&Acirc; &copy; 2016 Adhoc All Rights Reserved</small></p>
       </div>
     </footer>
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="./resources/js/bootstrap.min.js"></script>
   </body>
 </html>
